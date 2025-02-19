@@ -57,13 +57,11 @@
 - Oultiers are present in the range of (0.44-8) % for the features.
 - Some of the features have very low or low skew, while there are few features where skew is extremely high.
 - Target feature 'churn' has dominating label 'no' with 3480 records.
-- Feature 'state' has the highest cardinality with 51 labels.     
-<br>                
+- Feature 'state' has the highest cardinality with 51 labels.      
 - Numerical features exhibit nearly weak correlation with target feature.
 - Features contributing the most for churn of the customers are: **[total_day_minutes, total_day_charge, total_eve_minutes, total_eve_charge, number_customer_service_calls]**.
 - Other features contributing for churn of the customers are: **[total_night_minutes, total_night_charge, total_intl_minutes, total_intl_charge, account_length, total_day_calls]**.
 - Features contributing for non-churn of the customers are: **[number_vmail_messages, total_eve_calls, total_night_calls, total_intl_calls]**.                 
-<br>               
 - Features highly affecting the churn of the customers in all states are: **[total_day_charge and number_customer_service_calls]**.
 - Churn of the customers is mostly affected in all area_codes by features: **[total_day_charge and number_customer_service_calls]**.
 - Customers without international plans are most likely to churn due to: **[total_day_charge, total_eve_charge, total_night_charge, number_customer_service_calls]**.

@@ -1,0 +1,15 @@
+numpy
+pandas
+
+matplotlib
+seaborn
+plotly-express
+
+imblearn
+scikit-learn
+
+keras
+tensorflow
+keras-tuner
+
+gradio
